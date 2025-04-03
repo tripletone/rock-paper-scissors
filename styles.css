@@ -1,0 +1,95 @@
+body {
+    background: #212121;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title  {
+    font-size: 2.5rem;
+    font-family:
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline: #f0f0f0 solid 5px;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    flex: 1;
+}
+
+.choice {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: #f0f0f0;
+}
+
+.rock {
+    outline: 2px solid #3b44ff;
+}
+
+.paper {
+    outline: 2px solid #3bff65;
+}
+
+.scissors {
+    outline: 2px solid #ff3b3b;
+}
+
+.rock:hover {
+    background-color: #3b44ff;
+}
+
+.paper:hover {
+    background-color: #3bff65;
+}
+
+.scissors:hover {
+    background-color: #ff3b3b;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.resetBtn {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+    outline: red solid 2px;
+}
+
+.resetBtn:hover {
+    transform: scale(1.1);
+    color: red;
+    font-weight: bold;
+}
+
+#scoreboard {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 20px;
+}
