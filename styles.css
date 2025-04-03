@@ -15,6 +15,11 @@ body {
     align-items: center;
     justify-content: center;
     outline: #f0f0f0 solid 5px;
+    background-image: url(images/doom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
 }
 
 #game {
@@ -31,7 +36,7 @@ body {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    background: transparent;
+    background: #212121;
     color: #f0f0f0;
 }
 
@@ -68,11 +73,13 @@ body {
     margin-top: 30px;
     font-size: 1.5rem;
     font-weight: bold;
+    background: #212121;
+    padding: 10px;
 }
 
 .resetBtn {
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -80,16 +87,19 @@ body {
     color: #f0f0f0;
     margin-bottom: 20px;
     outline: red solid 2px;
+    font-weight: bold;
 }
 
 .resetBtn:hover {
     transform: scale(1.1);
     color: red;
     font-weight: bold;
+    background: #212121;
 }
 
 #scoreboard {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 1.2rem;
     padding: 20px;
+    background: #212121;
 }
